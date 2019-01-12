@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="HPlusSports.ProductDetail"
+             xmlns:design="clr-namespace:HPlusSports.Design;assembly:HPlusSports"
+             BindingContext="{x:Static design:ProductModel.Product}"
+             >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <OnPlatform x:TypeArguments="x:Double" x:Key="xConstant">
+                <On Platform="Android" Value="150" />
+                <On Platform="iOS,UWP" Value="100"/>
+            </OnPlatform>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <ScrollView Orientation="Vertical" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <StackLayout Orientation="Vertical" Padding="10,20">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Name:" />
+                <Label Text="{Binding Path=Name}" />
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical">
+                <Label Text="Description:" />
+                <Label Text="{Binding Description}" />
+            </StackLayout>
+
+            <Image Source="{Binding Path=ImageUri}"
+                   Aspect="AspectFit" HorizontalOptions="FillAndExpand" VerticalOptions="Start" />
+
+            <RelativeLayout HorizontalOptions="FillAndExpand" VerticalOptions="Start">
+                <Button Text="Order"
+                        x:Name="OrderBtn"
+                        Clicked="Handle_Clicked"
+                        >
+                        <RelativeLayout.WidthConstraint>
+                            <OnPlatform x:TypeArguments="Constraint">
+                                <On Platform="Android" Value="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.35}" />
+                                <On Platform="iOS,UWP" Value="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=.25}" />
+                                
+                            </OnPlatform>
+                        </RelativeLayout.WidthConstraint>
+
+                        
+                    </Button>
+                <Button Text="Favorite" Clicked="Handle_Clicked_1"
+                RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=OrderBtn, Constant={StaticResource xConstant}, Property=X}"
+                        ></Button>
+            </RelativeLayout>
+
+        </StackLayout>
+        </ScrollView>
+
+        
+    </ContentPage.Content>
+</ContentPage>

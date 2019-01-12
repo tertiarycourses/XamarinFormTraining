@@ -1,0 +1,35 @@
+﻿<Properties StartupConfiguration="{DE8CCCFA-AEC7-4E14-AFFA-B00E7323F695}|Default" NuGet.AddPackagesDialog.IncludePrerelease="True">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HPlusSports.iOS/Main.cs">
+    <Files>
+      <File FileName="HPlusSports/App.xaml.cs" Line="22" Column="1" />
+      <File FileName="HPlusSports/MainPage.xaml" Line="11" Column="15" />
+      <File FileName="HPlusSports/MainPage.xaml.cs" Line="33" Column="1" />
+      <File FileName="HPlusSports/ProductDetail.xaml" Line="47" Column="66" />
+      <File FileName="HPlusSports/ProductDetail.xaml.cs" Line="31" Column="13" />
+      <File FileName="HPlusSports/OrderForm.xaml" Line="58" Column="51" />
+      <File FileName="HPlusSports/OrderForm.xaml.cs" Line="10" Column="6" />
+      <File FileName="HPlusSports/Services/Order.cs" Line="28" Column="87" />
+      <File FileName="HPlusSports/INetworkManager.cs" Line="5" Column="6" />
+      <File FileName="HPlusSports.Android/NetworkManager.cs" Line="20" Column="1" />
+      <File FileName="HPlusSports.iOS/NetworkManager.cs" Line="22" Column="14" />
+      <File FileName="../../.nuget/packages/xamarin.essentials/0.10.0-preview/readme.txt" Line="7" Column="1" />
+      <File FileName="HPlusSports.Android/MainActivity.cs" Line="32" Column="9" />
+      <File FileName="HPlusSports/Services/ProductService.cs" Line="76" Column="1" />
+      <File FileName="HPlusSports.iOS/Main.cs" Line="17" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HPlusSports.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/mattmilner/Projects/HPlusSports/HPlusSports.Android/NetworkManager.cs" relfile="HPlusSports.Android/NetworkManager.cs" line="18" column="1" />
+      <Breakpoint file="/Users/mattmilner/Projects/HPlusSports/HPlusSports.iOS/NetworkManager.cs" relfile="HPlusSports.iOS/NetworkManager.cs" line="40" column="1" />
+      <Breakpoint file="/Users/mattmilner/Projects/HPlusSports/HPlusSports/App.xaml.cs" relfile="HPlusSports/App.xaml.cs" line="22" column="1" />
+      <Breakpoint file="/Users/mattmilner/Projects/HPlusSports/HPlusSports/App.xaml.cs" relfile="HPlusSports/App.xaml.cs" line="28" column="1" />
+      <Breakpoint file="/Users/mattmilner/Projects/HPlusSports/HPlusSports/App.xaml.cs" relfile="HPlusSports/App.xaml.cs" line="34" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.HPlusSports.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9D323074-1BE2-4B19-8AB0-8E5B81D2E037" />
+</Properties>

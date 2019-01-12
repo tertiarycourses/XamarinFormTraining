@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="HPlusSports.OrderForm">
+    <TabbedPage.Children>
+        <ContentPage Title="Order">
+            <Grid Padding="10,20" VerticalOptions="Start">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"/>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="1*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="*" />
+                </Grid.RowDefinitions>
+
+                <Label Text="Product:" />
+                <Label Text="ProductName" Grid.Column="1" Grid.ColumnSpan="2" />
+
+                <Label Text="Quantity:" Grid.Row="1" />
+                <Entry Text="0" Grid.Row="1" Grid.Column="1" />
+                <Stepper Grid.Row="1" Grid.Column="2" />
+
+                <Button Text="Place Order" Grid.Row="2" Grid.ColumnSpan="3" HorizontalOptions="Center" />
+            </Grid>
+            
+        </ContentPage>
+        <ContentPage Title="History"></ContentPage>
+    </TabbedPage.Children>
+</TabbedPage>

@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{DE8CCCFA-AEC7-4E14-AFFA-B00E7323F695}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="HPlusSports/ProductDetail.xaml">
+    <Files>
+      <File FileName="HPlusSports/App.xaml.cs" Line="15" Column="44" />
+      <File FileName="HPlusSports/MainPage.xaml" Line="6" Column="71" />
+      <File FileName="HPlusSports/MainPage.xaml.cs" Line="19" Column="55" />
+      <File FileName="HPlusSports/ProductDetail.xaml" Line="3" Column="14" />
+      <File FileName="HPlusSports/ProductDetail.xaml.cs" Line="7" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.HPlusSports.Android PreferredExecutionTarget="Android.Android_Accelerated_Oreo" AndroidDesignerPreferredTheme="Theme.DeviceDefault.NoActionBar.Fullscreen" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.HPlusSports.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9D323074-1BE2-4B19-8AB0-8E5B81D2E037" />
+</Properties>
